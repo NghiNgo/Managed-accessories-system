@@ -1,0 +1,317 @@
+2021-01-05 12:50:48,628 WARN  [restartedMain] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8761/config/managedAccessoriesSystem/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-01-05 12:50:48,671 INFO  [restartedMain] ManagedAccessoriesSystemApp: The following profiles are active: swagger,dev
+2021-01-05 12:50:57,065 DEBUG [restartedMain] InternalLoggerFactory: Using SLF4J as the default logging framework
+2021-01-05 12:50:57,652 DEBUG [restartedMain] Ehcache-usersByLogin: Initialize successful.
+2021-01-05 12:50:57,718 DEBUG [restartedMain] Ehcache-usersByEmail: Initialize successful.
+2021-01-05 12:50:57,728 DEBUG [restartedMain] User: Initialize successful.
+2021-01-05 12:50:57,732 DEBUG [restartedMain] Authority: Initialize successful.
+2021-01-05 12:50:57,748 DEBUG [restartedMain] authorities: Initialize successful.
+2021-01-05 12:50:57,756 DEBUG [restartedMain] ActionLog: Initialize successful.
+2021-01-05 12:50:57,766 DEBUG [restartedMain] ActionType: Initialize successful.
+2021-01-05 12:50:57,773 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 12:50:57,783 DEBUG [restartedMain] Area: Initialize successful.
+2021-01-05 12:50:57,785 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 12:50:57,797 DEBUG [restartedMain] employees: Initialize successful.
+2021-01-05 12:50:57,798 DEBUG [restartedMain] Equipment: Initialize successful.
+2021-01-05 12:50:57,806 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 12:50:57,817 DEBUG [restartedMain] statusLogs: Initialize successful.
+2021-01-05 12:50:57,824 DEBUG [restartedMain] userEquipmentActivityLogs: Initialize successful.
+2021-01-05 12:50:57,832 DEBUG [restartedMain] EquipmentGroup: Initialize successful.
+2021-01-05 12:50:57,839 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 12:50:57,839 DEBUG [restartedMain] EquipmentType: Initialize successful.
+2021-01-05 12:50:57,851 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 12:50:57,854 DEBUG [restartedMain] PlaceToPerform: Initialize successful.
+2021-01-05 12:50:57,861 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 12:50:57,868 DEBUG [restartedMain] StatusLog: Initialize successful.
+2021-01-05 12:50:57,876 DEBUG [restartedMain] StatusType: Initialize successful.
+2021-01-05 12:50:57,883 DEBUG [restartedMain] statusLogs: Initialize successful.
+2021-01-05 12:50:57,892 DEBUG [restartedMain] Employee: Initialize successful.
+2021-01-05 12:50:57,901 DEBUG [restartedMain] areas: Initialize successful.
+2021-01-05 12:50:57,908 DEBUG [restartedMain] UserEquipmentActivityLog: Initialize successful.
+2021-01-05 12:50:57,962 DEBUG [restartedMain] AsyncConfiguration: Creating Async Task Executor
+2021-01-05 12:50:58,113 DEBUG [restartedMain] LiquibaseConfiguration: Configuring Liquibase
+2021-01-05 12:50:58,436 WARN  [managed-accessories-system-task-1] AsyncSpringLiquibase: Starting Liquibase asynchronously, your database might not be ready at startup!
+2021-01-05 12:51:02,399 DEBUG [restartedMain] WebConfigurer: Registering CORS filter
+2021-01-05 12:51:02,471 INFO  [restartedMain] WebConfigurer: Web application configuration, using profiles: swagger
+2021-01-05 12:51:02,471 INFO  [restartedMain] WebConfigurer: Web application fully configured
+2021-01-05 12:51:02,671 DEBUG [restartedMain] TokenProvider: Using a Base64-encoded JWT secret key
+2021-01-05 12:51:07,846 DEBUG [restartedMain] SwaggerAutoConfiguration: Starting Swagger
+2021-01-05 12:51:07,858 DEBUG [restartedMain] SwaggerAutoConfiguration: Started Swagger in 10 ms
+2021-01-05 12:51:10,726 WARN  [restartedMain] BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger: You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-05 12:51:12,109 INFO  [restartedMain] threads: JBoss Threads version 3.1.0.Final
+2021-01-05 12:51:14,093 INFO  [restartedMain] ManagedAccessoriesSystemApp: Started ManagedAccessoriesSystemApp in 34.991 seconds (JVM running for 40.875)
+2021-01-05 12:51:14,111 INFO  [restartedMain] ManagedAccessoriesSystemApp: 
+----------------------------------------------------------
+	Application 'managedAccessoriesSystem' is running! Access URLs:
+	Local: 		http://localhost:8080/
+	External: 	http://192.168.1.10:8080/
+	Profile(s): 	[swagger, dev]
+----------------------------------------------------------
+2021-01-05 12:51:18,582 WARN  [RMI TCP Connection(5)-192.168.1.10] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8761/config/managedAccessoriesSystem/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-01-05 19:46:52,260 WARN  [restartedMain] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8761/config/managedAccessoriesSystem/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-01-05 19:46:52,260 INFO  [restartedMain] ManagedAccessoriesSystemApp: The following profiles are active: swagger,dev
+2021-01-05 19:46:57,254 DEBUG [restartedMain] InternalLoggerFactory: Using SLF4J as the default logging framework
+2021-01-05 19:46:57,598 DEBUG [restartedMain] Ehcache-usersByLogin: Initialize successful.
+2021-01-05 19:46:57,613 DEBUG [restartedMain] Ehcache-usersByEmail: Initialize successful.
+2021-01-05 19:46:57,629 DEBUG [restartedMain] User: Initialize successful.
+2021-01-05 19:46:57,629 DEBUG [restartedMain] Authority: Initialize successful.
+2021-01-05 19:46:57,629 DEBUG [restartedMain] authorities: Initialize successful.
+2021-01-05 19:46:57,629 DEBUG [restartedMain] ActionLog: Initialize successful.
+2021-01-05 19:46:57,629 DEBUG [restartedMain] ActionType: Initialize successful.
+2021-01-05 19:46:57,629 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 19:46:57,644 DEBUG [restartedMain] Area: Initialize successful.
+2021-01-05 19:46:57,644 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 19:46:57,644 DEBUG [restartedMain] employees: Initialize successful.
+2021-01-05 19:46:57,644 DEBUG [restartedMain] Equipment: Initialize successful.
+2021-01-05 19:46:57,644 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 19:46:57,644 DEBUG [restartedMain] statusLogs: Initialize successful.
+2021-01-05 19:46:57,660 DEBUG [restartedMain] userEquipmentActivityLogs: Initialize successful.
+2021-01-05 19:46:57,660 DEBUG [restartedMain] EquipmentGroup: Initialize successful.
+2021-01-05 19:46:57,660 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 19:46:57,660 DEBUG [restartedMain] EquipmentType: Initialize successful.
+2021-01-05 19:46:57,660 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 19:46:57,660 DEBUG [restartedMain] PlaceToPerform: Initialize successful.
+2021-01-05 19:46:57,660 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 19:46:57,676 DEBUG [restartedMain] StatusLog: Initialize successful.
+2021-01-05 19:46:57,676 DEBUG [restartedMain] StatusType: Initialize successful.
+2021-01-05 19:46:57,676 DEBUG [restartedMain] statusLogs: Initialize successful.
+2021-01-05 19:46:57,676 DEBUG [restartedMain] Employee: Initialize successful.
+2021-01-05 19:46:57,676 DEBUG [restartedMain] areas: Initialize successful.
+2021-01-05 19:46:57,676 DEBUG [restartedMain] UserEquipmentActivityLog: Initialize successful.
+2021-01-05 19:46:57,707 DEBUG [restartedMain] AsyncConfiguration: Creating Async Task Executor
+2021-01-05 19:46:57,769 DEBUG [restartedMain] LiquibaseConfiguration: Configuring Liquibase
+2021-01-05 19:46:57,910 WARN  [managed-accessories-system-task-1] AsyncSpringLiquibase: Starting Liquibase asynchronously, your database might not be ready at startup!
+2021-01-05 19:47:00,144 DEBUG [restartedMain] WebConfigurer: Registering CORS filter
+2021-01-05 19:47:00,175 INFO  [restartedMain] WebConfigurer: Web application configuration, using profiles: swagger
+2021-01-05 19:47:00,175 INFO  [restartedMain] WebConfigurer: Web application fully configured
+2021-01-05 19:47:00,269 DEBUG [restartedMain] TokenProvider: Using a Base64-encoded JWT secret key
+2021-01-05 19:47:03,456 DEBUG [restartedMain] SwaggerAutoConfiguration: Starting Swagger
+2021-01-05 19:47:03,456 DEBUG [restartedMain] SwaggerAutoConfiguration: Started Swagger in 9 ms
+2021-01-05 19:47:05,221 WARN  [restartedMain] BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger: You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-05 19:47:06,486 INFO  [restartedMain] threads: JBoss Threads version 3.1.0.Final
+2021-01-05 19:47:07,642 INFO  [restartedMain] ManagedAccessoriesSystemApp: Started ManagedAccessoriesSystemApp in 21.228 seconds (JVM running for 25.024)
+2021-01-05 19:47:07,658 INFO  [restartedMain] ManagedAccessoriesSystemApp: 
+----------------------------------------------------------
+	Application 'managedAccessoriesSystem' is running! Access URLs:
+	Local: 		http://localhost:8080/
+	External: 	http://192.168.1.10:8080/
+	Profile(s): 	[swagger, dev]
+----------------------------------------------------------
+2021-01-05 19:47:10,866 WARN  [RMI TCP Connection(2)-192.168.1.10] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8761/config/managedAccessoriesSystem/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-01-05 19:47:18,965 INFO  [XNIO-1 task-1] TokenProvider: Invalid JWT token.
+2021-01-05 19:47:18,965 INFO  [XNIO-1 task-2] TokenProvider: Invalid JWT token.
+2021-01-05 19:47:19,031 DEBUG [XNIO-1 task-2] CustomAuditEventRepository: Enter: add() with argument[s] = [AuditEvent [timestamp=2021-01-05T12:47:19.009112900Z, principal=anonymousUser, type=AUTHORIZATION_FAILURE, data={details=org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null, type=org.springframework.security.access.AccessDeniedException, message=Access is denied}]]
+2021-01-05 19:47:19,036 DEBUG [XNIO-1 task-2] CustomAuditEventRepository: Exit: add() with result = null
+2021-01-05 19:47:19,069 WARN  [XNIO-1 task-2] AdviceTraits: Unauthorized: Full authentication is required to access this resource
+2021-01-05 19:47:19,117 WARN  [XNIO-1 task-2] ExceptionHandlerExceptionResolver: Resolved [org.springframework.security.authentication.InsufficientAuthenticationException: Full authentication is required to access this resource]
+2021-01-05 19:47:25,440 INFO  [XNIO-1 task-2] TokenProvider: Invalid JWT token.
+2021-01-05 19:47:25,487 DEBUG [XNIO-1 task-2] UserJWTController: Enter: authorize() with argument[s] = [LoginVM{username='admin', rememberMe=false}]
+2021-01-05 19:47:25,619 DEBUG [XNIO-1 task-2] DomainUserDetailsService: Authenticating admin
+2021-01-05 19:47:26,052 DEBUG [XNIO-1 task-2] CustomAuditEventRepository: Enter: add() with argument[s] = [AuditEvent [timestamp=2021-01-05T12:47:26.051572900Z, principal=admin, type=AUTHENTICATION_SUCCESS, data={}]]
+2021-01-05 19:47:26,090 DEBUG [XNIO-1 task-2] CustomAuditEventRepository: Exit: add() with result = null
+2021-01-05 19:47:26,106 DEBUG [XNIO-1 task-2] UserJWTController: Exit: authorize() with result = <200 OK OK,vn.infodation.intern.group1.mas.web.rest.UserJWTController$JWTToken@579fe70f,[Authorization:"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYwOTkzNzI0Nn0.ue_taQli0OnAteBL4o-nCdmm9N-eSUaXySHWZNLltLYirsOcBLaI0RJcpSai-AvSikO0Z7Z-5ROxDYTRLn8ybA"]>
+2021-01-05 19:47:26,114 INFO  [XNIO-1 task-2] TokenProvider: Invalid JWT token.
+2021-01-05 19:47:26,130 DEBUG [XNIO-1 task-2] CustomAuditEventRepository: Enter: add() with argument[s] = [AuditEvent [timestamp=2021-01-05T12:47:26.130395800Z, principal=anonymousUser, type=AUTHORIZATION_FAILURE, data={details=org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null, type=org.springframework.security.access.AccessDeniedException, message=Access is denied}]]
+2021-01-05 19:47:26,130 DEBUG [XNIO-1 task-2] CustomAuditEventRepository: Exit: add() with result = null
+2021-01-05 19:47:26,130 WARN  [XNIO-1 task-2] AdviceTraits: Unauthorized: Full authentication is required to access this resource
+2021-01-05 19:47:26,130 WARN  [XNIO-1 task-2] ExceptionHandlerExceptionResolver: Resolved [org.springframework.security.authentication.InsufficientAuthenticationException: Full authentication is required to access this resource]
+2021-01-05 19:48:51,411 WARN  [restartedMain] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8761/config/managedAccessoriesSystem/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-01-05 19:48:51,411 INFO  [restartedMain] ManagedAccessoriesSystemApp: The following profiles are active: swagger,dev
+2021-01-05 19:48:55,110 DEBUG [restartedMain] InternalLoggerFactory: Using SLF4J as the default logging framework
+2021-01-05 19:48:55,475 DEBUG [restartedMain] Ehcache-usersByLogin: Initialize successful.
+2021-01-05 19:48:55,507 DEBUG [restartedMain] Ehcache-usersByEmail: Initialize successful.
+2021-01-05 19:48:55,507 DEBUG [restartedMain] User: Initialize successful.
+2021-01-05 19:48:55,507 DEBUG [restartedMain] Authority: Initialize successful.
+2021-01-05 19:48:55,522 DEBUG [restartedMain] authorities: Initialize successful.
+2021-01-05 19:48:55,522 DEBUG [restartedMain] ActionLog: Initialize successful.
+2021-01-05 19:48:55,522 DEBUG [restartedMain] ActionType: Initialize successful.
+2021-01-05 19:48:55,522 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 19:48:55,538 DEBUG [restartedMain] Area: Initialize successful.
+2021-01-05 19:48:55,538 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 19:48:55,538 DEBUG [restartedMain] employees: Initialize successful.
+2021-01-05 19:48:55,538 DEBUG [restartedMain] Equipment: Initialize successful.
+2021-01-05 19:48:55,538 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 19:48:55,538 DEBUG [restartedMain] statusLogs: Initialize successful.
+2021-01-05 19:48:55,554 DEBUG [restartedMain] userEquipmentActivityLogs: Initialize successful.
+2021-01-05 19:48:55,554 DEBUG [restartedMain] EquipmentGroup: Initialize successful.
+2021-01-05 19:48:55,554 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 19:48:55,554 DEBUG [restartedMain] EquipmentType: Initialize successful.
+2021-01-05 19:48:55,554 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 19:48:55,554 DEBUG [restartedMain] PlaceToPerform: Initialize successful.
+2021-01-05 19:48:55,554 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 19:48:55,569 DEBUG [restartedMain] StatusLog: Initialize successful.
+2021-01-05 19:48:55,569 DEBUG [restartedMain] StatusType: Initialize successful.
+2021-01-05 19:48:55,569 DEBUG [restartedMain] statusLogs: Initialize successful.
+2021-01-05 19:48:55,569 DEBUG [restartedMain] Employee: Initialize successful.
+2021-01-05 19:48:55,569 DEBUG [restartedMain] areas: Initialize successful.
+2021-01-05 19:48:55,569 DEBUG [restartedMain] UserEquipmentActivityLog: Initialize successful.
+2021-01-05 19:48:55,600 DEBUG [restartedMain] AsyncConfiguration: Creating Async Task Executor
+2021-01-05 19:48:55,662 DEBUG [restartedMain] LiquibaseConfiguration: Configuring Liquibase
+2021-01-05 19:48:55,803 WARN  [managed-accessories-system-task-1] AsyncSpringLiquibase: Starting Liquibase asynchronously, your database might not be ready at startup!
+2021-01-05 19:48:58,164 DEBUG [restartedMain] WebConfigurer: Registering CORS filter
+2021-01-05 19:48:58,211 INFO  [restartedMain] WebConfigurer: Web application configuration, using profiles: swagger
+2021-01-05 19:48:58,211 INFO  [restartedMain] WebConfigurer: Web application fully configured
+2021-01-05 19:48:58,289 DEBUG [restartedMain] TokenProvider: Using a Base64-encoded JWT secret key
+2021-01-05 19:49:00,741 DEBUG [restartedMain] SwaggerAutoConfiguration: Starting Swagger
+2021-01-05 19:49:00,756 DEBUG [restartedMain] SwaggerAutoConfiguration: Started Swagger in 7 ms
+2021-01-05 19:49:02,178 WARN  [restartedMain] BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger: You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-05 19:49:03,006 INFO  [restartedMain] threads: JBoss Threads version 3.1.0.Final
+2021-01-05 19:49:04,034 INFO  [restartedMain] ManagedAccessoriesSystemApp: Started ManagedAccessoriesSystemApp in 18.277 seconds (JVM running for 21.605)
+2021-01-05 19:49:04,034 INFO  [restartedMain] ManagedAccessoriesSystemApp: 
+----------------------------------------------------------
+	Application 'managedAccessoriesSystem' is running! Access URLs:
+	Local: 		http://localhost:8080/
+	External: 	http://192.168.1.10:8080/
+	Profile(s): 	[swagger, dev]
+----------------------------------------------------------
+2021-01-05 19:49:06,861 WARN  [RMI TCP Connection(1)-192.168.1.10] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8761/config/managedAccessoriesSystem/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-01-05 19:50:32,459 WARN  [restartedMain] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8761/config/managedAccessoriesSystem/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-01-05 19:50:32,459 INFO  [restartedMain] ManagedAccessoriesSystemApp: The following profiles are active: swagger,dev
+2021-01-05 19:50:36,268 DEBUG [restartedMain] InternalLoggerFactory: Using SLF4J as the default logging framework
+2021-01-05 19:50:36,660 DEBUG [restartedMain] Ehcache-usersByLogin: Initialize successful.
+2021-01-05 19:50:36,676 DEBUG [restartedMain] Ehcache-usersByEmail: Initialize successful.
+2021-01-05 19:50:36,691 DEBUG [restartedMain] User: Initialize successful.
+2021-01-05 19:50:36,691 DEBUG [restartedMain] Authority: Initialize successful.
+2021-01-05 19:50:36,691 DEBUG [restartedMain] authorities: Initialize successful.
+2021-01-05 19:50:36,691 DEBUG [restartedMain] ActionLog: Initialize successful.
+2021-01-05 19:50:36,691 DEBUG [restartedMain] ActionType: Initialize successful.
+2021-01-05 19:50:36,707 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 19:50:36,707 DEBUG [restartedMain] Area: Initialize successful.
+2021-01-05 19:50:36,707 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 19:50:36,707 DEBUG [restartedMain] employees: Initialize successful.
+2021-01-05 19:50:36,707 DEBUG [restartedMain] Equipment: Initialize successful.
+2021-01-05 19:50:36,707 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 19:50:36,723 DEBUG [restartedMain] statusLogs: Initialize successful.
+2021-01-05 19:50:36,723 DEBUG [restartedMain] userEquipmentActivityLogs: Initialize successful.
+2021-01-05 19:50:36,723 DEBUG [restartedMain] EquipmentGroup: Initialize successful.
+2021-01-05 19:50:36,723 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 19:50:36,723 DEBUG [restartedMain] EquipmentType: Initialize successful.
+2021-01-05 19:50:36,723 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 19:50:36,738 DEBUG [restartedMain] PlaceToPerform: Initialize successful.
+2021-01-05 19:50:36,738 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 19:50:36,738 DEBUG [restartedMain] StatusLog: Initialize successful.
+2021-01-05 19:50:36,738 DEBUG [restartedMain] StatusType: Initialize successful.
+2021-01-05 19:50:36,738 DEBUG [restartedMain] statusLogs: Initialize successful.
+2021-01-05 19:50:36,738 DEBUG [restartedMain] Employee: Initialize successful.
+2021-01-05 19:50:36,738 DEBUG [restartedMain] areas: Initialize successful.
+2021-01-05 19:50:36,754 DEBUG [restartedMain] UserEquipmentActivityLog: Initialize successful.
+2021-01-05 19:50:36,770 DEBUG [restartedMain] AsyncConfiguration: Creating Async Task Executor
+2021-01-05 19:50:36,848 DEBUG [restartedMain] LiquibaseConfiguration: Configuring Liquibase
+2021-01-05 19:50:36,979 WARN  [managed-accessories-system-task-1] AsyncSpringLiquibase: Starting Liquibase asynchronously, your database might not be ready at startup!
+2021-01-05 19:50:39,425 DEBUG [restartedMain] WebConfigurer: Registering CORS filter
+2021-01-05 19:50:39,461 INFO  [restartedMain] WebConfigurer: Web application configuration, using profiles: swagger
+2021-01-05 19:50:39,461 INFO  [restartedMain] WebConfigurer: Web application fully configured
+2021-01-05 19:50:39,570 DEBUG [restartedMain] TokenProvider: Using a Base64-encoded JWT secret key
+2021-01-05 19:50:41,985 DEBUG [restartedMain] SwaggerAutoConfiguration: Starting Swagger
+2021-01-05 19:50:42,000 DEBUG [restartedMain] SwaggerAutoConfiguration: Started Swagger in 7 ms
+2021-01-05 19:50:43,384 WARN  [restartedMain] BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger: You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-05 19:50:44,192 INFO  [restartedMain] threads: JBoss Threads version 3.1.0.Final
+2021-01-05 19:50:45,115 INFO  [restartedMain] ManagedAccessoriesSystemApp: Started ManagedAccessoriesSystemApp in 18.448 seconds (JVM running for 21.457)
+2021-01-05 19:50:45,131 INFO  [restartedMain] ManagedAccessoriesSystemApp: 
+----------------------------------------------------------
+	Application 'managedAccessoriesSystem' is running! Access URLs:
+	Local: 		http://localhost:8080/
+	External: 	http://192.168.1.10:8080/
+	Profile(s): 	[swagger, dev]
+----------------------------------------------------------
+2021-01-05 19:50:48,236 WARN  [RMI TCP Connection(2)-192.168.1.10] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8761/config/managedAccessoriesSystem/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-01-05 19:52:47,361 WARN  [restartedMain] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8761/config/managedAccessoriesSystem/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-01-05 19:52:47,361 INFO  [restartedMain] ManagedAccessoriesSystemApp: The following profiles are active: swagger,dev
+2021-01-05 19:52:51,200 DEBUG [restartedMain] InternalLoggerFactory: Using SLF4J as the default logging framework
+2021-01-05 19:52:51,557 DEBUG [restartedMain] Ehcache-usersByLogin: Initialize successful.
+2021-01-05 19:52:51,588 DEBUG [restartedMain] Ehcache-usersByEmail: Initialize successful.
+2021-01-05 19:52:51,588 DEBUG [restartedMain] User: Initialize successful.
+2021-01-05 19:52:51,588 DEBUG [restartedMain] Authority: Initialize successful.
+2021-01-05 19:52:51,588 DEBUG [restartedMain] authorities: Initialize successful.
+2021-01-05 19:52:51,604 DEBUG [restartedMain] ActionLog: Initialize successful.
+2021-01-05 19:52:51,604 DEBUG [restartedMain] ActionType: Initialize successful.
+2021-01-05 19:52:51,604 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 19:52:51,604 DEBUG [restartedMain] Area: Initialize successful.
+2021-01-05 19:52:51,620 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 19:52:51,620 DEBUG [restartedMain] employees: Initialize successful.
+2021-01-05 19:52:51,620 DEBUG [restartedMain] Equipment: Initialize successful.
+2021-01-05 19:52:51,620 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 19:52:51,620 DEBUG [restartedMain] statusLogs: Initialize successful.
+2021-01-05 19:52:51,637 DEBUG [restartedMain] userEquipmentActivityLogs: Initialize successful.
+2021-01-05 19:52:51,640 DEBUG [restartedMain] EquipmentGroup: Initialize successful.
+2021-01-05 19:52:51,642 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 19:52:51,645 DEBUG [restartedMain] EquipmentType: Initialize successful.
+2021-01-05 19:52:51,647 DEBUG [restartedMain] equipment: Initialize successful.
+2021-01-05 19:52:51,649 DEBUG [restartedMain] PlaceToPerform: Initialize successful.
+2021-01-05 19:52:51,652 DEBUG [restartedMain] actionLogs: Initialize successful.
+2021-01-05 19:52:51,655 DEBUG [restartedMain] StatusLog: Initialize successful.
+2021-01-05 19:52:51,657 DEBUG [restartedMain] StatusType: Initialize successful.
+2021-01-05 19:52:51,660 DEBUG [restartedMain] statusLogs: Initialize successful.
+2021-01-05 19:52:51,662 DEBUG [restartedMain] Employee: Initialize successful.
+2021-01-05 19:52:51,664 DEBUG [restartedMain] areas: Initialize successful.
+2021-01-05 19:52:51,666 DEBUG [restartedMain] UserEquipmentActivityLog: Initialize successful.
+2021-01-05 19:52:51,687 DEBUG [restartedMain] AsyncConfiguration: Creating Async Task Executor
+2021-01-05 19:52:51,762 DEBUG [restartedMain] LiquibaseConfiguration: Configuring Liquibase
+2021-01-05 19:52:51,903 WARN  [managed-accessories-system-task-1] AsyncSpringLiquibase: Starting Liquibase asynchronously, your database might not be ready at startup!
+2021-01-05 19:52:54,292 DEBUG [restartedMain] WebConfigurer: Registering CORS filter
+2021-01-05 19:52:54,323 INFO  [restartedMain] WebConfigurer: Web application configuration, using profiles: swagger
+2021-01-05 19:52:54,323 INFO  [restartedMain] WebConfigurer: Web application fully configured
+2021-01-05 19:52:54,401 DEBUG [restartedMain] TokenProvider: Using a Base64-encoded JWT secret key
+2021-01-05 19:52:56,831 DEBUG [restartedMain] SwaggerAutoConfiguration: Starting Swagger
+2021-01-05 19:52:56,831 DEBUG [restartedMain] SwaggerAutoConfiguration: Started Swagger in 7 ms
+2021-01-05 19:52:58,215 WARN  [restartedMain] BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger: You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-05 19:52:59,017 INFO  [restartedMain] threads: JBoss Threads version 3.1.0.Final
+2021-01-05 19:52:59,969 INFO  [restartedMain] ManagedAccessoriesSystemApp: Started ManagedAccessoriesSystemApp in 18.677 seconds (JVM running for 21.714)
+2021-01-05 19:52:59,984 INFO  [restartedMain] ManagedAccessoriesSystemApp: 
+----------------------------------------------------------
+	Application 'managedAccessoriesSystem' is running! Access URLs:
+	Local: 		http://localhost:8080/
+	External: 	http://192.168.1.10:8080/
+	Profile(s): 	[swagger, dev]
+----------------------------------------------------------
+2021-01-05 19:53:03,219 WARN  [RMI TCP Connection(1)-192.168.1.10] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8761/config/managedAccessoriesSystem/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-01-05 19:54:00,787 DEBUG [XNIO-1 task-2] CustomAuditEventRepository: Enter: add() with argument[s] = [AuditEvent [timestamp=2021-01-05T12:54:00.774115600Z, principal=anonymousUser, type=AUTHORIZATION_FAILURE, data={details=org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 192.168.1.10; SessionId: null, type=org.springframework.security.access.AccessDeniedException, message=Access is denied}]]
+2021-01-05 19:54:00,793 DEBUG [XNIO-1 task-2] CustomAuditEventRepository: Exit: add() with result = null
+2021-01-05 19:54:00,817 WARN  [XNIO-1 task-2] AdviceTraits: Unauthorized: Full authentication is required to access this resource
+2021-01-05 19:54:00,854 WARN  [XNIO-1 task-2] ExceptionHandlerExceptionResolver: Resolved [org.springframework.security.authentication.InsufficientAuthenticationException: Full authentication is required to access this resource]
+2021-01-05 19:54:07,002 DEBUG [XNIO-1 task-3] UserJWTController: Enter: authorize() with argument[s] = [LoginVM{username='admin', rememberMe=false}]
+2021-01-05 19:54:07,111 DEBUG [XNIO-1 task-3] DomainUserDetailsService: Authenticating admin
+2021-01-05 19:54:07,379 DEBUG [XNIO-1 task-3] CustomAuditEventRepository: Enter: add() with argument[s] = [AuditEvent [timestamp=2021-01-05T12:54:07.379282500Z, principal=admin, type=AUTHENTICATION_SUCCESS, data={}]]
+2021-01-05 19:54:07,410 DEBUG [XNIO-1 task-3] CustomAuditEventRepository: Exit: add() with result = null
+2021-01-05 19:54:07,457 DEBUG [XNIO-1 task-3] UserJWTController: Exit: authorize() with result = <200 OK OK,vn.infodation.intern.group1.mas.web.rest.UserJWTController$JWTToken@35e7517f,[Authorization:"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYwOTkzNzY0N30.bqOR8Aubt3PHQw9-MFVBOb_WBW62UbcT8FP8JO4Jy3G8qQZukYRONuqqfnCZu2IXfCI2L3GbEWtrr_s-UQfWEg"]>
+2021-01-05 19:54:07,488 DEBUG [XNIO-1 task-3] AccountResource: Enter: getAccount() with argument[s] = []
+2021-01-05 19:54:07,488 DEBUG [XNIO-1 task-3] UserService: Enter: getUserWithAuthorities() with argument[s] = []
+2021-01-05 19:54:07,504 DEBUG [XNIO-1 task-3] UserService: Exit: getUserWithAuthorities() with result = Optional[User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated='true', langKey='en', activationKey='null'}]
+2021-01-05 19:54:07,504 DEBUG [XNIO-1 task-3] AccountResource: Exit: getAccount() with result = UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}
+2021-01-05 19:54:13,557 DEBUG [XNIO-1 task-3] UserResource: Enter: getAllUsers() with argument[s] = [Page request [number: 0, size 20, sort: id: ASC]]
+2021-01-05 19:54:13,562 DEBUG [XNIO-1 task-3] UserService: Enter: getAllManagedUsers() with argument[s] = [Page request [number: 0, size 20, sort: id: ASC]]
+2021-01-05 19:54:13,598 DEBUG [XNIO-1 task-3] UserService: Exit: getAllManagedUsers() with result = Page 1 of 1 containing vn.infodation.intern.group1.mas.service.dto.UserDTO instances
+2021-01-05 19:54:13,601 DEBUG [XNIO-1 task-3] UserResource: Exit: getAllUsers() with result = <200 OK OK,[UserDTO{login='system', firstName='System', lastName='System', email='system@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}, UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}, UserDTO{login='user', firstName='Hoang', lastName='Lan', email='user@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='admin', lastModifiedDate=2020-12-31T08:14:46Z, authorities=[ROLE_USER]}, UserDTO{login='lanhoang0129', firstName='Hoang', lastName='Lan', email='lanhoang0129@gmail.com', imageUrl='null', activated=true, langKey='vi', createdBy=admin, createdDate=2020-12-07T12:12:46Z, lastModifiedBy='admin', lastModifiedDate=2020-12-10T07:09:08Z, authorities=[ROLE_USER, ROLE_ADMIN]}, UserDTO{login='nghingo', firstName='Ngo', lastName='Nghi', email='nghingo@gmail.com', imageUrl='null', activated=true, langKey='en', createdBy=admin, createdDate=2020-12-10T04:15:07Z, lastModifiedBy='admin', lastModifiedDate=2020-12-10T07:09:08Z, authorities=[ROLE_USER, ROLE_ADMIN]}, UserDTO{login='lanhoangntu', firstName='Hoang', lastName='Lan', email='lanhoangntu@gmail.com', imageUrl='null', activated=true, langKey='null', createdBy=admin, createdDate=2020-12-10T08:13:37Z, lastModifiedBy='admin', lastModifiedDate=2020-12-10T08:13:58Z, authorities=[ROLE_USER]}, UserDTO{login='datle', firstName='Le', lastName='Dat', email='datle@gmail.com', imageUrl='null', activated=false, langKey='null', createdBy=admin, createdDate=2020-12-10T08:13:37Z, lastModifiedBy='admin', lastModifiedDate=2020-12-10T08:13:37Z, authorities=[ROLE_USER]}, UserDTO{login='helloworld', firstName='User', lastName='1', email='user01@gmail.com', imageUrl='null', activated=false, langKey='null', createdBy=admin, createdDate=2020-12-10T10:59:28Z, lastModifiedBy='admin', lastModifiedDate=2020-12-14T01:49:42Z, authorities=[ROLE_USER]}, UserDTO{login='user02', firstName='User', lastName='2', email='user02@gmail.com', imageUrl='null', activated=false, langKey='null', createdBy=admin, createdDate=2020-12-10T10:59:29Z, lastModifiedBy='admin', lastModifiedDate=2020-12-10T10:59:29Z, authorities=[ROLE_USER]}, UserDTO{login='user03', firstName='User', lastName='3', email='user03@gmail.com', imageUrl='null', activated=false, langKey='null', createdBy=admin, createdDate=2020-12-10T10:59:29Z, lastModifiedBy='admin', lastModifiedDate=2020-12-10T10:59:29Z, authorities=[ROLE_USER]}, UserDTO{login='user04', firstName='User', lastName='4', email='user04@gmail.com', imageUrl='null', activated=false, langKey='null', createdBy=admin, createdDate=2020-12-10T10:59:29Z, lastModifiedBy='admin', lastModifiedDate=2020-12-10T10:59:29Z, authorities=[ROLE_USER]}, UserDTO{login='user05', firstName='User', lastName='5', email='user05@gmail.com', imageUrl='null', activated=false, langKey='null', createdBy=admin, createdDate=2020-12-10T10:59:30Z, lastModifiedBy='admin', lastModifiedDate=2020-12-10T10:59:30Z, authorities=[ROLE_USER]}, UserDTO{login='user06', firstName='User', lastName='6', email='user06@gmail.com', imageUrl='null', activated=false, langKey='null', createdBy=admin, createdDate=2020-12-10T10:59:30Z, lastModifiedBy='admin', lastModifiedDate=2020-12-10T10:59:30Z, authorities=[ROLE_USER]}, UserDTO{login='user07', firstName='User', lastName='7', email='user07@gmail.com', imageUrl='null', activated=false, langKey='null', createdBy=admin, createdDate=2020-12-10T10:59:30Z, lastModifiedBy='admin', lastModifiedDate=2020-12-10T10:59:30Z, authorities=[ROLE_USER]}, UserDTO{login='user08', firstName='User', lastName='8', email='user08@gmail.com', imageUrl='null', activated=false, langKey='null', createdBy=admin, createdDate=2020-12-10T10:59:30Z, lastModifiedBy='admin', lastModifiedDate=2020-12-10T10:59:30Z, authorities=[ROLE_USER]}, UserDTO{login='user09', firstName='User', lastName='9', email='user09@gmail.com', imageUrl='null', activated=false, langKey='null', createdBy=admin, createdDate=2020-12-10T10:59:31Z, lastModifiedBy='admin', lastModifiedDate=2020-12-10T10:59:31Z, authorities=[ROLE_USER]}, UserDTO{login='user10', firstName='User', lastName='10', email='user10@gmail.com', imageUrl='null', activated=false, langKey='null', createdBy=admin, createdDate=2020-12-10T10:59:31Z, lastModifiedBy='admin', lastModifiedDate=2020-12-10T10:59:31Z, authorities=[ROLE_USER]}, UserDTO{login='user11', firstName='User', lastName='11', email='user11@gmail.com', imageUrl='null', activated=false, langKey='null', createdBy=admin, createdDate=2020-12-10T10:59:31Z, lastModifiedBy='admin', lastModifiedDate=2020-12-10T10:59:31Z, authorities=[ROLE_USER]}, UserDTO{login='userrr', firstName='Userrrr', lastName='userrrr', email='userrrr@gmail.com', imageUrl='null', activated=false, langKey='null', createdBy=admin, createdDate=2020-12-11T14:13:58Z, lastModifiedBy='admin', lastModifiedDate=2020-12-11T14:13:58Z, authorities=[ROLE_USER]}, UserDTO{login='usernew', firstName='ABC', lastName='System', email='abc@localhost', imageUrl='null', activated=false, langKey='null', createdBy=admin, createdDate=2020-12-31T08:14:46Z, lastModifiedBy='admin', lastModifiedDate=2020-12-31T08:14:46Z, authorities=[ROLE_USER]}],[X-Total-Count:"20", Link:"<http://192.168.1.10:8080/api/users?sort=id%2Casc&page=0&size=20>; rel="last",<http://192.168.1.10:8080/api/users?sort=id%2Casc&page=0&size=20>; rel="first""]>
+2021-01-05 19:54:21,400 DEBUG [XNIO-1 task-3] UserResource: Enter: getAuthorities() with argument[s] = []
+2021-01-05 19:54:21,404 DEBUG [XNIO-1 task-3] UserService: Enter: getAuthorities() with argument[s] = []
+2021-01-05 19:54:21,412 DEBUG [XNIO-1 task-3] UserService: Exit: getAuthorities() with result = [ROLE_ADMIN, ROLE_USER]
+2021-01-05 19:54:21,414 DEBUG [XNIO-1 task-3] UserResource: Exit: getAuthorities() with result = [ROLE_ADMIN, ROLE_USER]
+2021-01-05 19:57:53,573 ERROR [managed-accessories-system-task-1] AsyncSpringLiquibase: Liquibase could not start correctly, your database is NOT ready: Could not acquire change log lock.  Currently locked by DELL (192.168.191.2) since 12/7/20, 4:50 PM
+liquibase.exception.LockException: Could not acquire change log lock.  Currently locked by DELL (192.168.191.2) since 12/7/20, 4:50 PM
+	at liquibase.lockservice.StandardLockService.waitForLock(StandardLockService.java:236)
+	at liquibase.Liquibase.update(Liquibase.java:184)
+	at liquibase.Liquibase.update(Liquibase.java:179)
+	at liquibase.integration.spring.SpringLiquibase.performUpdate(SpringLiquibase.java:366)
+	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:314)
+	at org.springframework.boot.autoconfigure.liquibase.DataSourceClosingSpringLiquibase.afterPropertiesSet(DataSourceClosingSpringLiquibase.java:46)
+	at io.github.jhipster.config.liquibase.AsyncSpringLiquibase.initDb(AsyncSpringLiquibase.java:118)
+	at io.github.jhipster.config.liquibase.AsyncSpringLiquibase.lambda$afterPropertiesSet$0(AsyncSpringLiquibase.java:93)
+	at io.github.jhipster.async.ExceptionHandlingAsyncTaskExecutor.lambda$createWrappedRunnable$1(ExceptionHandlingAsyncTaskExecutor.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-01-05 19:59:18,813 DEBUG [XNIO-1 task-3] EquipmentResource: Enter: getAllEquipment() with argument[s] = []
+2021-01-05 19:59:18,817 DEBUG [XNIO-1 task-3] EquipmentResource: REST request to get all Equipment
+2021-01-05 19:59:18,877 DEBUG [XNIO-1 task-3] EquipmentResource: Exit: getAllEquipment() with result = [Equipment{id=1, purchaseDate='2020-11-29T19:44:00Z', equipmentName='Swiss Franc monitor', technicalFeatures='None', serialNumber='User-friendly Group', note='Bacon Underpass'}, Equipment{id=2, purchaseDate='2020-11-30T01:46:48Z', equipmentName='Face to face SSL user-centric', technicalFeatures='Group Kansas olive', serialNumber='application Regional', note='Chicken'}, Equipment{id=3, purchaseDate='2020-11-29T22:26:38Z', equipmentName='Light', technicalFeatures='implementation structure', serialNumber='reboot Granite', note='firewall payment'}, Equipment{id=4, purchaseDate='2020-11-30T06:52:00Z', equipmentName='Intuitive Home Loan Account SDD', technicalFeatures='disintermediate', serialNumber='Avon deliver', note='Salad Auto Loan Account EXE'}, Equipment{id=5, purchaseDate='2020-11-29T18:02:02Z', equipmentName='Fantastic Cotton Keyboard', technicalFeatures='Savings Account cyan Metal', serialNumber='protocol', note='Libyan Dinar wireless'}, Equipment{id=6, purchaseDate='2020-11-30T03:28:39Z', equipmentName='Chicken RSS Cambridgeshire', technicalFeatures='ADP Agent', serialNumber='supply-chains invoice magnetic', note='National Communications Incredible Frozen Towels'}, Equipment{id=7, purchaseDate='2020-11-30T03:00:04Z', equipmentName='navigate invoice', technicalFeatures='systems Principal bifurcated', serialNumber='e-business grey', note='throughput morph'}, Equipment{id=8, purchaseDate='2020-11-29T09:18:46Z', equipmentName='Vision-oriented Car New York', technicalFeatures='digital', serialNumber='orchid', note='Outdoors Kwanza Security'}, Equipment{id=9, purchaseDate='2020-11-29T10:30:07Z', equipmentName='panel', technicalFeatures='system engine disintermediate synergies', serialNumber='Investment Account Integration', note='Serbian Dinar conglomeration reboot'}, Equipment{id=16, purchaseDate='2020-12-30T17:00:00Z', equipmentName='a', technicalFeatures='None', serialNumber='aeqw3q232323', note='None'}]
+2021-01-05 19:59:20,966 DEBUG [XNIO-1 task-3] EmployeeResource: Enter: getAllEmployees() with argument[s] = []
+2021-01-05 19:59:20,967 DEBUG [XNIO-1 task-2] EquipmentGroupResource: Enter: getAllEquipmentGroups() with argument[s] = []
+2021-01-05 19:59:20,967 DEBUG [XNIO-1 task-1] EquipmentTypeResource: Enter: getAllEquipmentTypes() with argument[s] = []
+2021-01-05 19:59:20,968 DEBUG [XNIO-1 task-4] AreaResource: Enter: getAllAreas() with argument[s] = []
+2021-01-05 19:59:20,970 DEBUG [XNIO-1 task-1] EquipmentTypeResource: REST request to get all EquipmentTypes
+2021-01-05 19:59:20,970 DEBUG [XNIO-1 task-4] AreaResource: REST request to get all Areas
+2021-01-05 19:59:20,971 DEBUG [XNIO-1 task-3] EmployeeResource: REST request to get all Employees
+2021-01-05 19:59:20,971 DEBUG [XNIO-1 task-2] EquipmentGroupResource: REST request to get all EquipmentGroups
+2021-01-05 19:59:20,981 DEBUG [XNIO-1 task-4] AreaResource: Exit: getAllAreas() with result = [Area{id=1, areaName='contextually-based Maine Rustic Wooden Salad'}, Area{id=2, areaName='Berkshire brand'}, Area{id=3, areaName='Enterprise-wide cross-platform'}, Area{id=4, areaName='Hat Buckinghamshire Legacy'}, Area{id=5, areaName='alliance'}, Area{id=6, areaName='silver Zambia value-added'}, Area{id=7, areaName='Car'}, Area{id=8, areaName='Manors'}, Area{id=9, areaName='Cotton Dynamic Toys'}, Area{id=10, areaName='Operations Graphic Interface value-added'}]
+2021-01-05 19:59:20,981 DEBUG [XNIO-1 task-1] EquipmentTypeResource: Exit: getAllEquipmentTypes() with result = [EquipmentType{id=1, equipmentTypeName='Trinidad and Tobago Dollar'}, EquipmentType{id=2, equipmentTypeName='withdrawal Chief Maryland'}, EquipmentType{id=3, equipmentTypeName='monitor'}, EquipmentType{id=4, equipmentTypeName='Directives'}, EquipmentType{id=5, equipmentTypeName='Creek Industrial'}, EquipmentType{id=6, equipmentTypeName='system visionary'}, EquipmentType{id=7, equipmentTypeName='Hat Concrete'}, EquipmentType{id=8, equipmentTypeName='Zimbabwe Dollar'}, EquipmentType{id=9, equipmentTypeName='Infrastructure impactful'}, EquipmentType{id=10, equipmentTypeName='card systems Metal'}]
+2021-01-05 19:59:20,986 DEBUG [XNIO-1 task-2] EquipmentGroupResource: Exit: getAllEquipmentGroups() with result = [EquipmentGroup{id=1, equipmentGroupName='Cotton hacking'}, EquipmentGroup{id=2, equipmentGroupName='technologies'}, EquipmentGroup{id=3, equipmentGroupName='connecting'}, EquipmentGroup{id=4, equipmentGroupName='Towels system circuit'}, EquipmentGroup{id=5, equipmentGroupName='Personal Loan Account New Zealand Money Market Account'}, EquipmentGroup{id=6, equipmentGroupName='Republic of Korea'}, EquipmentGroup{id=7, equipmentGroupName='wireless Villages'}, EquipmentGroup{id=8, equipmentGroupName='connect interactive'}, EquipmentGroup{id=9, equipmentGroupName='Credit Card Account'}, EquipmentGroup{id=10, equipmentGroupName='Books'}]
+2021-01-05 19:59:20,987 DEBUG [XNIO-1 task-3] EmployeeResource: Exit: getAllEmployees() with result = [Employee{id=1, phoneNumber='0963169819'}, Employee{id=2, phoneNumber='123'}, Employee{id=3, phoneNumber='0963169819'}, Employee{id=4, phoneNumber='0963169819'}, Employee{id=5, phoneNumber='099798997'}, Employee{id=6, phoneNumber='08812352112'}, Employee{id=7, phoneNumber='0987654321'}, Employee{id=8, phoneNumber='0819782018'}, Employee{id=9, phoneNumber='0000000002'}, Employee{id=10, phoneNumber='0000000003'}, Employee{id=11, phoneNumber='0000000004'}, Employee{id=12, phoneNumber='0000000005'}, Employee{id=13, phoneNumber='0000000006'}, Employee{id=14, phoneNumber='0000000007'}, Employee{id=15, phoneNumber='0000000008'}, Employee{id=16, phoneNumber='0000000009'}, Employee{id=17, phoneNumber='0000000011'}, Employee{id=18, phoneNumber='0000000010'}, Employee{id=31, phoneNumber='0963169817'}]
